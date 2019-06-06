@@ -1,0 +1,106 @@
+baseurl = "https://webalbaniev19.netlify.com/"
+title = "Web Albanie"
+theme = "hugo-theme-cleanwhite"
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+disqusShortname = "https-webalbaniev19-netlify-com"
+googleAnalytics = "UA-141594643-1"
+preserveTaxonomyNames = true
+paginate = 5 #frontpage pagination
+hasCJKLanguage = true
+
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
+
+[params]
+  header_image = "img/uvodni_foto.jpg"
+  SEOTitle = "Web Albanie | Roman Zahradníček"
+  description = "Školní projekt, Web o Albánii."
+  keyword = "Alabanie, Albánie, Albania, , school project"
+  slogan = "Přoč ne web o Albanii?"
+
+  image_404 = "img/404.jpg"
+  title_404 = "Something wrong has to be :("
+
+  # leancloud storage for page view counter
+  page_view_conter = false 
+  leancloud_app_id = ""
+  leancloud_app_key = ""
+
+  # algolia site search
+  algolia_search = true
+  algolia_appId = ""
+  algolia_indexName = ""
+  algolia_apiKey = ""
+
+  # Sidebar settings
+  sidebar_about_description = "Milovník folkloru, dobých vín a přátelských večerů. "
+  #sidebar_avatar = "flag_albania.png.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_avatar = "img/profile_avatar.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+  featured_tags = true 
+  featured_condition_size = 1 
+
+  # Baidu Analytics
+  ba_track_id = ""
+  
+  # We need a proxy to access Disqus api in China
+  # Follow https://github.com/zhaohuabing/disqus-php-api to set up your own disqus proxy
+  disqus_proxy = ""
+  disqus_site = ""
+
+  #Enable wechat pay & alipay to allow readers send reward money if they like the articles 
+  reward = false 
+  # reward_guide = "如果这篇文章对你有用,请随意打赏" 
+
+  friends = true
+  bookmarks = false
+  about_me = true
+
+  [params.social]
+  rss            = true 
+  email          = "430017@mail.muni.cz"
+  #facebook      = "https://www.facebook.com/RomanZahradniczek"
+  #googleplus    = "full profile url in googleplus"
+  #twitter       = "full profile url in twitter"
+  linkedin       = "https://www.linkedin.com/in/yourlinkedinid"
+  stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
+  #instagram     = "https://www.instagram.com/zahradnicekroman/"
+  github         = "https://github.com/yourgithub"
+  wechat         = "your wechat qr code image"
+#  medium         = "full profile url in medium"
+  #pinterest     = "full profile url in pinterest"
+  
+  [[params.friend_link]]
+  title = "MILION CHVILEK PRO DEMOKRACII"
+  href =  "https://www.milionchvilek.cz/"
+
+  [[params.bookmark_link]]
+  title =  "Martin Fowler"
+  href =  "https://martinfowler.com"
+  [[params.bookmark_link]]
+  title = "ServiceMesher"
+  href =  "http://www.servicemesher.com"
+  [[params.bookmark_link]]
+  title =  "Pxhere"
+  href = "https://pxhere.com"
+  [[params.bookmark_link]]
+  title = "unsplash"
+  href = "https://unsplash.com"
+  
+  [[params.addtional_menus]]
+  title =  "LITERATURA"
+  href =  "/top/books/"
+  [[params.addtional_menus]]
+  title =  "O NÁS"
+  href =  "/top/about/"
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+params = ["categories", "tags"] 
