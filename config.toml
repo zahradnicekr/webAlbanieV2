@@ -1,5 +1,5 @@
 baseurl = "https://webalbanivev2.netlify.com/"
-title = "Web Albanie V2.0"
+title = "Web Albánie V2.0"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -14,7 +14,7 @@ home = ["HTML", "RSS", "Algolia"]
 
 [params]
   header_image = "img/uvodni_foto.jpg"
-  SEOTitle = "Web Albanie | Roman Zahradníček"
+  SEOTitle = "Web Albánie | Roman Zahradníček"
   description = "Školní projekt, Web o Albánii."
   keyword = "Alabanie, Albánie, Albania, , school project"
   slogan = "Přoč ne web o Albánii?"
