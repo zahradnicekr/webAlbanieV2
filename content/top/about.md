@@ -16,4 +16,4 @@ Od Itálie je oddělena 75 km širokým Otranským průlivem.
 (https://cs.wikipedia.org/wiki/Alb%C3%A1nie) Odkaz na českou wikipedii
 
 * [Wikipedie EN]
-(https://en.wikipedia.org/wiki/Albania) Link to wikipedia page about Albania
+(https://en.wikipedia.org/wiki/Albania) Link to the wikipedia page about Albania
