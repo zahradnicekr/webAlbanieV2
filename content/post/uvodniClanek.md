@@ -1,6 +1,6 @@
 ---
 layout:      post
-title:       "Úvod o Albánii"
+title:       "Úvod o Albánii verze 2"
 subtitle:    "aneb začínáme"
 description: "Úvodní článek o Albánii"
 date:        2018-06-04
@@ -24,7 +24,7 @@ Kromě památek na středověkou slávu, jako je například Skanderbegův hrad 
 
 V zemi investuje řada zahraničních firem, zejména v oblasti rozvoje dopravní infrastruktury a energetického průmyslu (např. elektrárenská společnost ČEZ vlastní 76 % podíl v OSSH - jediném albánském distributorovi elektřiny).
 
-![](/img/image_tirana.jpg)
+![Hlavní město Tyrana](/img/image_tirana.jpg)
 
 # Obyvatelé
 
