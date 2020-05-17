@@ -3,7 +3,7 @@ layout:      post
 title:       "Úvod o Albánii verze 2"
 subtitle:    "aneb začínáme"
 description: "Úvodní článek o Albánii"
-date:        2018-06-04
+date:        2020-05-17
 author:      "Roman Zahradníček" 
 image:       "img/uvodniClanekPicture.png"
 tags:        ["Albania"]
