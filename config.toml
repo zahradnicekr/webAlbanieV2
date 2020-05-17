@@ -14,7 +14,7 @@ home = ["HTML", "RSS", "Algolia"]
 
 [params]
   header_image = "img/uvodni_foto.jpg"
-  SEOTitle = "Web Albánie | Roman Zahradníček"
+  SEOTitle = "Web Albánie | Roan Zahradníček"
   description = "Web o Albánii."
   keyword = "Alabanie, Albánie, Albania, , school project"
   slogan = "Přoč web o Albánii?"
